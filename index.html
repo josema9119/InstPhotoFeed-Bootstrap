@@ -30,14 +30,16 @@
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">Publish a new post</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <form>
-                                    <div class="mb-3">
-                                      <label for="message-text" class="col-form-label">Caption:</label>
-                                      <textarea class="form-control" id="message-text"></textarea>
-                                      <button type="button" class="btn btn-outline mt-4"><i class="fa-solid fa-camera fs-4"></i></button>
-                                      <button type="button" class="btn btn-outline mt-4"><i class="fa-solid fa-location-dot fs-4"></i></button>
-                                    </div>
-                                </form>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Caption:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                            <button type="button" class="btn btn-outline-secondary mt-4"><i class="fa-solid fa-camera fs-4"></i></button>
+                                            <button type="button" class="btn btn-outline-secondary mt-4"><i class="fa-solid fa-location-dot fs-4"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-success">Publish</button>
